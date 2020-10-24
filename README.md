@@ -89,10 +89,17 @@ While organizing by school type, Thomas High School is a Charter school. Since o
 |**% Overall Passing**| 90.432% |90.392% | Decrease of .040%|
 
 ## Summary
-In final summation, removing the Ninth Grade test scores from Thomas High School did not have a significant impact to the analysis report. The most significant changes are as follows:
-* School District Summary - Overall Passing % 
-  * This value was reduced from 65.2% to 64.9%, at a total reduction of .3%
-* District-wide Scores by Grade Level - Ninth Grade Math Score
-  * This value was reduced from 78.94% to 78.74%, at a total reduction of .2%
-*
-*
+In final summation, removing the Ninth Grade test scores from Thomas High School did not have a significant impact to the analysis report. Removing the Thomas High School scores did not impact most dimensions in excess of .1%. The four most significant changes (>.2%) are as follows:
+* School District Summary 
+  * **Overall Passing %** This value was reduced from 65.2% to 64.9%, at a total reduction of .3%
+* District-wide Scores by Grade Level 
+  * **Ninth Grade Math Score** This value was reduced from 78.94% to 78.74%, at a total reduction of .2%
+* Thomas High School
+  * **Average Reading Score** This value was reduced from 97.31%	to 97.02% for a .29% reduction
+  * **Overall Passing %** This value was reduced from 90.95% to 90.63%, for a reduction of .32%
+
+The interim scores should not be considered as a significant value for the sake of comparison. These values do not accurately represent scores at Thomas High School, but were erroneous calculations resulting from removing the Ninth Grade test scores and not changing the function by which we were calculating the mean.
+
+The school board should not worry about whether removing the Thomas High School values has a significant impact on grade averages. By almost all dimensions, the impact was minimal. This analysis should still provide great value for identifying best practices and areas of concern along a number of dimensions. Of particular interest is the fact that there is a negative coorelation between the amount spent on each student and the outcomes. This is a counter-intuitive finding and should be investigated further.
+
+![test scores by spending level](images/test_scores_by_spending_level.png)
