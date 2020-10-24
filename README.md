@@ -56,6 +56,8 @@ If we compare student grades across all district schools, we see that the distri
 |**Eleventh Grade**| 79.08% | 79.08% |81.89%| 81.89%|
 |**Twelfth Grade**| 78.99% | 78.99% |81.82%|81.82%|
 
+![district-wide scores by grade](images/district_wide_scores_by_grade.png)
+
 #### Scores by school spending
 When organizing by school spending per student, Thomas High School falls within the bin labeled "$630-644." Since our revised analysis only changes Thomas High School, the other bins remain unchanged. For the impacted bin, the values changed accordingly:
 | Field Name | Initial Value  | Modified Value | Change |
@@ -87,8 +89,10 @@ While organizing by school type, Thomas High School is a Charter school. Since o
 |**% Overall Passing**| 90.432% |90.392% | Decrease of .040%|
 
 ## Summary
-In final summation, removing the Ninth Grade test scores from Thomas High School did not have a significant impact to the analysis report. 
-* 
-*
+In final summation, removing the Ninth Grade test scores from Thomas High School did not have a significant impact to the analysis report. The most significant changes are as follows:
+* School District Summary - Overall Passing % 
+  * This value was reduced from 65.2% to 64.9%, at a total reduction of .3%
+* District-wide Scores by Grade Level - Ninth Grade Math Score
+  * This value was reduced from 78.94% to 78.74%, at a total reduction of .2%
 *
 *
