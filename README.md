@@ -5,6 +5,8 @@ The school board reached out to our analysis firm to review school district test
 
 After reviewing the district test scores for Maria and the school board, we discovered that the 9th grade math and reading test scores from Thomas High School appear to have been altered. As a result, we need to go back through the data and replace the Thomas High School ninth grade test scores with NaN values. After we remove those values, we need to redo our district analysis without the Thomas High School ninth grade scores. 
 
+While the project syllabus calls for the use of bulleted lists and images throughout the analysis report, our analysts believe that embedding tables within the GitHub markup provides the most detailed and useful reference for the client. 
+
 ## Results
 ### How is the district summary affected?
 The District Summary included the following fields (columns):*'Total Schools', 'Total Students', 'Total Budget', 'Average Math Score','Average Reading Score', '% Passing Math', '% Passing Reading','% Overall Passing'.* Of these fields, all of the values specific to student scores changed after we removed the ninth grade test scores from Thomas High School. Specifically, the values changed from these initial values to these modified values:
@@ -39,12 +41,20 @@ As the previous table showed, the overall passing percentage dropped from an ini
 ### How does replacing the ninth-grade scores affect the following:
 #### Math and reading scores by grade
 Only the Ninth Grade math and reading scores were changed by the data cleaning process. The test scores for tenth, elevent, and twelfth grade remain unchanged. Instead of a number value the ninth grade test score returns a value of NaN - which is a NumPy value that signifies "Not a Number."
-| Grade Level | Initial Math Value  | Final Math Value | Initial Reading Value  | Final Reading Value | 
+| Thomas High School | Initial Math Value  | Final Math Value | Initial Reading Value  | Final Reading Value | 
 | ---    | ---    | ---    | ---  |--- |
 |**Ninth Grade** | 83.59% | NaN |83.73%| NaN |
 |**Tenth Grade**| 83.09% | 83.09% | 84.25% |84.25%|
 |**Eleventh Grade**| 83.5% | 83.5% |83.59%| 83.59%|
 |**Twelfth Grade**| 83.5% | 83.5% |83.83%|83.83%|
+
+If we compare student grades across all district schools, we see that the district average of Ninth Grade reading and math both drop by removing the Thomas High School scores. These values both drop because the Thomas High School test scores are higher than the mean, by removing these values we lower the mean. The math mean lowers by .2% and the reading mean lowers by .08%.
+| District-Wide | Initial Math Value  | Final Math Value | Initial Reading Value  | Final Reading Value | 
+| ---    | ---    | ---    | ---  |--- |
+|**Ninth Grade** | 78.94% | 78.74% |81.91%| 81.84% |
+|**Tenth Grade**| 78.94% | 78.94% | 81.87% |81.87%|
+|**Eleventh Grade**| 79.08% | 79.08% |81.89%| 81.89%|
+|**Twelfth Grade**| 78.99% | 78.99% |81.82%|81.82%|
 
 #### Scores by school spending
 When organizing by school spending per student, Thomas High School falls within the bin labeled "$630-644." Since our revised analysis only changes Thomas High School, the other bins remain unchanged. For the impacted bin, the values changed accordingly:
@@ -77,5 +87,8 @@ While organizing by school type, Thomas High School is a Charter school. Since o
 |**% Overall Passing**| 90.432% |90.392% | Decrease of .040%|
 
 ## Summary
-
-
+In final summation, removing the Ninth Grade test scores from Thomas High School did not have a significant impact to the analysis report. 
+* 
+*
+*
+*
