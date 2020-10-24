@@ -38,17 +38,44 @@ As the previous table showed, the overall passing percentage dropped from an ini
 
 ### How does replacing the ninth-grade scores affect the following:
 #### Math and reading scores by grade
+Only the Ninth Grade math and reading scores were changed by the data cleaning process. The test scores for tenth, elevent, and twelfth grade remain unchanged. Instead of a number value the ninth grade test score returns a value of NaN - which is a NumPy value that signifies "Not a Number."
+| Grade Level | Initial Math Value  | Final Math Value | Initial Reading Value  | Final Reading Value | 
+| ---    | ---    | ---    | ---  |--- |
+|**Ninth Grade** | 83.59% | NaN |83.73%| NaN |
+|**Tenth Grade**| 83.09% | 83.09% | 84.25% |84.25%|
+|**Eleventh Grade**| 83.5% | 83.5% |83.59%| 83.59%|
+|**Twelfth Grade**| 83.5% | 83.5% |83.83%|83.83%|
 
 #### Scores by school spending
+When organizing by school spending per student, Thomas High School falls within the bin labeled "$630-644." Since our revised analysis only changes Thomas High School, the other bins remain unchanged. For the impacted bin, the values changed accordingly:
+| Field Name | Initial Value  | Modified Value | Change |
+| --- | --- |--- |--- |
+|**Average Math Score** | 78.52% |78.5%| Decrease of .02% |
+|**Average Reading Score**| 81.62% | 81.64% | Increase of .02% |
+|**% Passing Math**| 73.48% | 73.46% | Decrease of .02% |
+|**% Passing Reading**| 84.39% |84.32%| Decrease of .07%|
+|**% Overall Passing**| 62.86% |62.78%| Decrease of .08%|
 
 #### Scores by school size
+While organizing by school size, Thomas High School falls within the "Medium" category, with a student population between 1000-2000 students. Since our revised analysis only changes Thomas High School, the other size categories remain unchanged. For the impacted category, the values changed accordingly:
+| Field Name | Initial Value  | Modified Value | Change |
+| --- | --- |--- |--- |
+|**Average Math Score** | 83.37% |83.36%| Decrease of .01% |
+|**Average Reading Score**| 83.86% | 83.87% | Increase of .01% |
+|**% Passing Math**| 93.6% | 93.58% | Decrease of .02% |
+|**% Passing Reading**| 96.79% |96.73%| Decrease of .03%|
+|**% Overall Passing**| 90.62% |90.57% | Decrease of .05%|
 
 #### Scores by school type
+While organizing by school type, Thomas High School is a Charter school. Since our revised analysis only changes Thomas High School, the other size school type categories remain unchanged. For Charter schools however, the values changed very slightly. In order to show changes, we have rounded to the thousandths place in the following table:
+| Field Name | Initial Value  | Modified Value | Change |
+| --- | --- |--- |--- |
+|**Average Math Score** | 83.473% |83.465%| Decrease of .008% |
+|**Average Reading Score**| 83.896% | 83.902% | Increase of .006% |
+|**% Passing Math**| 93.621% | 93.610% | Decrease of .011% |
+|**% Passing Reading**| 96.586% |96.550%| Decrease of .036%|
+|**% Overall Passing**| 90.432% |90.392% | Decrease of .040%|
 
 ## Summary
 
-
-```py
-    
-```
 
